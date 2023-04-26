@@ -78,19 +78,19 @@ void Decoder::processIDAT(std::vector<u8> chunk_data)
 }
 
 int Decoder::getChannels() {
-	if (m_color_type == ColorType::TrueColor) {
+	if (m_color_type == ColorType::true_color) {
 		return 3;
 	}
-	else if (m_color_type == ColorType::TrueColorWithAlpha) {
+	else if (m_color_type == ColorType::true_color_with_alpha) {
 		return 4;
 	}
-	else if (m_color_type == ColorType::Grayscale) {
+	else if (m_color_type == ColorType::grayscale) {
 		throw std::runtime_error("Implement Grayscale");
 	}
-	else if (m_color_type == ColorType::IndexedColor) {
+	else if (m_color_type == ColorType::indexed_color) {
 		throw std::runtime_error("Implement IndexedColor");
 	}
-	else if (m_color_type == ColorType::GrayscaleWithAlpha) {
+	else if (m_color_type == ColorType::grayscale_with_alpha) {
 		throw std::runtime_error("Implement GrayscaleWithAlpha");
 	}
 	else {
@@ -133,21 +133,21 @@ void Decoder::unfilter() {
 
 	for (int i = 0; i < m_scanlines.size(); i++) {
 		switch (m_scanlines[i].filter) {
-		case FilterType::None:
+		case FilterType::none:
 			break;
-		case FilterType::Sub:
+		case FilterType::sub:
 			for (int j = bytes_per_complete_pixel; j < bytes_per_scanline; j++) {
 				int left = m_scanlines[i].data[j - bytes_per_complete_pixel];
 				m_scanlines[i].data[j] += left;
 			}
 			break;
-		case FilterType::Up:
+		case FilterType::up:
 			for (int j = 0; j < bytes_per_scanline; j++) {
 				int above = i > 0 ? m_scanlines[i - 1].data[j] : 0;
 				m_scanlines[i].data[j] += above;
 			}
 			break;
-		case FilterType::Average:
+		case FilterType::average:
 			for (int j = 0; j < bytes_per_scanline; j++) {
 				int left = j < bytes_per_complete_pixel ? 0 : m_scanlines[i].data[j - bytes_per_complete_pixel];
 				int above = i > 0 ? m_scanlines[i - 1].data[j] : 0;
@@ -155,7 +155,7 @@ void Decoder::unfilter() {
 				m_scanlines[i].data[j] += average;
 			}
 			break;
-		case FilterType::Paeth:
+		case FilterType::paeth:
 			for (int j = 0; j < bytes_per_scanline; j++) {
 				int left = j < bytes_per_complete_pixel ? 0 : m_scanlines[i].data[j - bytes_per_complete_pixel];
 				int above = i > 0 ? m_scanlines[i - 1].data[j] : 0;

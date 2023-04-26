@@ -7,24 +7,24 @@
 #include "Image.h"
 
 enum class InterlaceMethod{
-	None,
-	Adam7,
+	none,
+	adam7,
 };
 
 enum class ColorType {
-	Grayscale = 0,
-	TrueColor = 2,
-	IndexedColor,
-	GrayscaleWithAlpha,
-	TrueColorWithAlpha = 6,
+	grayscale,
+	true_color = 2,
+	indexed_color,
+	grayscale_with_alpha,
+	true_color_with_alpha = 6,
 };
 
 enum class FilterType {
-	None = 0,
-	Sub,
-	Up,
-	Average,
-	Paeth,
+	none,
+	sub,
+	up,
+	average,
+	paeth,
 };
 
 struct Scanline {
