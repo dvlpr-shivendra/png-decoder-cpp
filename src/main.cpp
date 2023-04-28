@@ -65,9 +65,6 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    int rows_count = 640;
-    int cols_count = 480;
-
     Decoder decoder;
 
     Image image = decoder.decode(argv[1]);
