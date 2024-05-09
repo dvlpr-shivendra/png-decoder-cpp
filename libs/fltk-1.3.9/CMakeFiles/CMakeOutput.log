@@ -1,0 +1,994 @@
+The system is: Linux - 5.15.146.1-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-57As6B
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2fc55/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2fc55.dir/build.make CMakeFiles/cmTC_2fc55.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-57As6B'
+Building C object CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fc55.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2fc55.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccbwWS8Q.s
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: cc72d2b9b5048fedc2be9051c917b40b
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fc55.dir/'
+ as -v --64 -o CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o /tmp/ccbwWS8Q.s
+GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_2fc55
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fc55.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o -o cmTC_2fc55 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2fc55' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2fc55.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfjamAJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2fc55 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2fc55' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2fc55.'
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-57As6B'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-57As6B]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2fc55/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2fc55.dir/build.make CMakeFiles/cmTC_2fc55.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-57As6B']
+  ignore line: [Building C object CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fc55.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2fc55.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccbwWS8Q.s]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: cc72d2b9b5048fedc2be9051c917b40b]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fc55.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o /tmp/ccbwWS8Q.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_2fc55]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fc55.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o -o cmTC_2fc55 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2fc55' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2fc55.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfjamAJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2fc55 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfjamAJ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2fc55] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_2fc55.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-d1ScNZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_35b58/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35b58.dir/build.make CMakeFiles/cmTC_35b58.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-d1ScNZ'
+Building CXX object CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_35b58.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_35b58.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/cc5erFQC.s
+GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/12
+ /usr/include/x86_64-linux-gnu/c++/12
+ /usr/include/c++/12/backward
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 62b090dbbefa50644117a3c13d47369a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_35b58.dir/'
+ as -v --64 -o CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc5erFQC.s
+GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_35b58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35b58.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_35b58 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35b58' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_35b58.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvfKRgs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_35b58 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35b58' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_35b58.'
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-d1ScNZ'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/12]
+    add: [/usr/include/x86_64-linux-gnu/c++/12]
+    add: [/usr/include/c++/12/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/12] ==> [/usr/include/c++/12]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/12] ==> [/usr/include/x86_64-linux-gnu/c++/12]
+  collapse include dir [/usr/include/c++/12/backward] ==> [/usr/include/c++/12/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12;/usr/include/x86_64-linux-gnu/c++/12;/usr/include/c++/12/backward;/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-d1ScNZ]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_35b58/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35b58.dir/build.make CMakeFiles/cmTC_35b58.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-d1ScNZ']
+  ignore line: [Building CXX object CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_35b58.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_35b58.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/cc5erFQC.s]
+  ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/12]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/12]
+  ignore line: [ /usr/include/c++/12/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 62b090dbbefa50644117a3c13d47369a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_35b58.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc5erFQC.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_35b58]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35b58.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_35b58 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35b58' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_35b58.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvfKRgs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_35b58 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccvfKRgs.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_35b58] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_35b58.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-I2aMqk
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c6ee8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c6ee8.dir/build.make CMakeFiles/cmTC_c6ee8.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-I2aMqk'
+Building C object CMakeFiles/cmTC_c6ee8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c6ee8.dir/CheckIncludeFile.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-I2aMqk/CheckIncludeFile.c
+Linking C executable cmTC_c6ee8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6ee8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c6ee8.dir/CheckIncludeFile.c.o -o cmTC_c6ee8 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-I2aMqk'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-djHtdZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8634f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8634f.dir/build.make CMakeFiles/cmTC_8634f.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-djHtdZ'
+Building C object CMakeFiles/cmTC_8634f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8634f.dir/CheckIncludeFile.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-djHtdZ/CheckIncludeFile.c
+Linking C executable cmTC_8634f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8634f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8634f.dir/CheckIncludeFile.c.o -o cmTC_8634f 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-djHtdZ'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Tshp9r
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c3a57/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c3a57.dir/build.make CMakeFiles/cmTC_c3a57.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Tshp9r'
+Building C object CMakeFiles/cmTC_c3a57.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c3a57.dir/CheckIncludeFile.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Tshp9r/CheckIncludeFile.c
+Linking C executable cmTC_c3a57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3a57.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c3a57.dir/CheckIncludeFile.c.o -o cmTC_c3a57 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Tshp9r'
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Qc8Yt1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a40f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a40f.dir/build.make CMakeFiles/cmTC_6a40f.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Qc8Yt1'
+Building C object CMakeFiles/cmTC_6a40f.dir/SIZEOF_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6a40f.dir/SIZEOF_SHORT.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Qc8Yt1/SIZEOF_SHORT.c
+Linking C executable cmTC_6a40f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a40f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6a40f.dir/SIZEOF_SHORT.c.o -o cmTC_6a40f 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Qc8Yt1'
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Truw17
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_06a78/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_06a78.dir/build.make CMakeFiles/cmTC_06a78.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Truw17'
+Building C object CMakeFiles/cmTC_06a78.dir/SIZEOF_INT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_06a78.dir/SIZEOF_INT.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Truw17/SIZEOF_INT.c
+Linking C executable cmTC_06a78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06a78.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_06a78.dir/SIZEOF_INT.c.o -o cmTC_06a78 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Truw17'
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Bs7sq2
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a0c44/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a0c44.dir/build.make CMakeFiles/cmTC_a0c44.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Bs7sq2'
+Building C object CMakeFiles/cmTC_a0c44.dir/SIZEOF_LONG.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a0c44.dir/SIZEOF_LONG.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Bs7sq2/SIZEOF_LONG.c
+Linking C executable cmTC_a0c44
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0c44.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a0c44.dir/SIZEOF_LONG.c.o -o cmTC_a0c44 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Bs7sq2'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-ecbx8F
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_377d3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_377d3.dir/build.make CMakeFiles/cmTC_377d3.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-ecbx8F'
+Building C object CMakeFiles/cmTC_377d3.dir/HAVE_LONG_LONG.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_377d3.dir/HAVE_LONG_LONG.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-ecbx8F/HAVE_LONG_LONG.c
+Linking C executable cmTC_377d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_377d3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_377d3.dir/HAVE_LONG_LONG.c.o -o cmTC_377d3 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-ecbx8F'
+
+
+
+Determining if files alsa/asoundlib.h exist passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-HY2mdy
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_df426/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_df426.dir/build.make CMakeFiles/cmTC_df426.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-HY2mdy'
+Building C object CMakeFiles/cmTC_df426.dir/HAVE_ALSA_ASOUNDLIB_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_df426.dir/HAVE_ALSA_ASOUNDLIB_H.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-HY2mdy/HAVE_ALSA_ASOUNDLIB_H.c
+Linking C executable cmTC_df426
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df426.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_df426.dir/HAVE_ALSA_ASOUNDLIB_H.c.o -o cmTC_df426 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-HY2mdy'
+
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-uDzYOu
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8ff8d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8ff8d.dir/build.make CMakeFiles/cmTC_8ff8d.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-uDzYOu'
+Building C object CMakeFiles/cmTC_8ff8d.dir/HAVE_DLFCN_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8ff8d.dir/HAVE_DLFCN_H.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-uDzYOu/HAVE_DLFCN_H.c
+Linking C executable cmTC_8ff8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ff8d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8ff8d.dir/HAVE_DLFCN_H.c.o -o cmTC_8ff8d 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-uDzYOu'
+
+
+
+Determining if files libpng/png.h exist passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-jeAy9c
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f84c2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f84c2.dir/build.make CMakeFiles/cmTC_f84c2.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-jeAy9c'
+Building C object CMakeFiles/cmTC_f84c2.dir/HAVE_LIBPNG_PNG_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f84c2.dir/HAVE_LIBPNG_PNG_H.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-jeAy9c/HAVE_LIBPNG_PNG_H.c
+Linking C executable cmTC_f84c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f84c2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f84c2.dir/HAVE_LIBPNG_PNG_H.c.o -o cmTC_f84c2 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-jeAy9c'
+
+
+
+Determining if files locale.h exist passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-xiyokO
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1cf54/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1cf54.dir/build.make CMakeFiles/cmTC_1cf54.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-xiyokO'
+Building C object CMakeFiles/cmTC_1cf54.dir/HAVE_LOCALE_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1cf54.dir/HAVE_LOCALE_H.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-xiyokO/HAVE_LOCALE_H.c
+Linking C executable cmTC_1cf54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cf54.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1cf54.dir/HAVE_LOCALE_H.c.o -o cmTC_1cf54 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-xiyokO'
+
+
+
+Determining if files png.h exist passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Zv02YJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_12261/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12261.dir/build.make CMakeFiles/cmTC_12261.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Zv02YJ'
+Building C object CMakeFiles/cmTC_12261.dir/HAVE_PNG_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_12261.dir/HAVE_PNG_H.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Zv02YJ/HAVE_PNG_H.c
+Linking C executable cmTC_12261
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12261.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_12261.dir/HAVE_PNG_H.c.o -o cmTC_12261 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Zv02YJ'
+
+
+
+Determining if files stdio.h exist passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-RFCNBr
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_157f5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_157f5.dir/build.make CMakeFiles/cmTC_157f5.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-RFCNBr'
+Building C object CMakeFiles/cmTC_157f5.dir/HAVE_STDIO_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_157f5.dir/HAVE_STDIO_H.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-RFCNBr/HAVE_STDIO_H.c
+Linking C executable cmTC_157f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_157f5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_157f5.dir/HAVE_STDIO_H.c.o -o cmTC_157f5 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-RFCNBr'
+
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-X94UZl
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cbfb3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cbfb3.dir/build.make CMakeFiles/cmTC_cbfb3.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-X94UZl'
+Building C object CMakeFiles/cmTC_cbfb3.dir/HAVE_STRINGS_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cbfb3.dir/HAVE_STRINGS_H.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-X94UZl/HAVE_STRINGS_H.c
+Linking C executable cmTC_cbfb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbfb3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cbfb3.dir/HAVE_STRINGS_H.c.o -o cmTC_cbfb3 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-X94UZl'
+
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-skgDw8
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e7140/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7140.dir/build.make CMakeFiles/cmTC_e7140.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-skgDw8'
+Building C object CMakeFiles/cmTC_e7140.dir/HAVE_SYS_SELECT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e7140.dir/HAVE_SYS_SELECT_H.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-skgDw8/HAVE_SYS_SELECT_H.c
+Linking C executable cmTC_e7140
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7140.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e7140.dir/HAVE_SYS_SELECT_H.c.o -o cmTC_e7140 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-skgDw8'
+
+
+
+Determining if files X11/Xlib.h;X11/Xregion.h exist passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-q948Wx
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b25f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b25f7.dir/build.make CMakeFiles/cmTC_b25f7.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-q948Wx'
+Building C object CMakeFiles/cmTC_b25f7.dir/HAVE_X11_XREGION_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b25f7.dir/HAVE_X11_XREGION_H.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-q948Wx/HAVE_X11_XREGION_H.c
+Linking C executable cmTC_b25f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b25f7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b25f7.dir/HAVE_X11_XREGION_H.c.o -o cmTC_b25f7 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-q948Wx'
+
+
+
+Determining if files X11/Xlib.h;X11/extensions/Xdbe.h exist passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-dHxz2O
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c5b35/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c5b35.dir/build.make CMakeFiles/cmTC_c5b35.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-dHxz2O'
+Building C object CMakeFiles/cmTC_c5b35.dir/HAVE_XDBE_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c5b35.dir/HAVE_XDBE_H.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-dHxz2O/HAVE_XDBE_H.c
+Linking C executable cmTC_c5b35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5b35.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c5b35.dir/HAVE_XDBE_H.c.o -o cmTC_c5b35 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-dHxz2O'
+
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-SxmhNM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3e0d3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3e0d3.dir/build.make CMakeFiles/cmTC_3e0d3.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-SxmhNM'
+Building C object CMakeFiles/cmTC_3e0d3.dir/HAVE_PTHREAD_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3e0d3.dir/HAVE_PTHREAD_H.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-SxmhNM/HAVE_PTHREAD_H.c
+Linking C executable cmTC_3e0d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e0d3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3e0d3.dir/HAVE_PTHREAD_H.c.o -o cmTC_3e0d3 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-SxmhNM'
+
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-LMOq3e
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6c869/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6c869.dir/build.make CMakeFiles/cmTC_6c869.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-LMOq3e'
+Building C object CMakeFiles/cmTC_6c869.dir/HAVE_DIRENT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6c869.dir/HAVE_DIRENT_H.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-LMOq3e/HAVE_DIRENT_H.c
+Linking C executable cmTC_6c869
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c869.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6c869.dir/HAVE_DIRENT_H.c.o -o cmTC_6c869 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-LMOq3e'
+
+
+
+Determining if the function dlsym exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-nDoTVW
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_215bb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_215bb.dir/build.make CMakeFiles/cmTC_215bb.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-nDoTVW'
+Building C object CMakeFiles/cmTC_215bb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlsym -o CMakeFiles/cmTC_215bb.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-nDoTVW/CheckFunctionExists.c
+Linking C executable cmTC_215bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_215bb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlsym CMakeFiles/cmTC_215bb.dir/CheckFunctionExists.c.o -o cmTC_215bb  -ldl 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-nDoTVW'
+
+
+
+Determining if the function localeconv exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-xKicuM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_26002/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_26002.dir/build.make CMakeFiles/cmTC_26002.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-xKicuM'
+Building C object CMakeFiles/cmTC_26002.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localeconv -o CMakeFiles/cmTC_26002.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-xKicuM/CheckFunctionExists.c
+Linking C executable cmTC_26002
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26002.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=localeconv CMakeFiles/cmTC_26002.dir/CheckFunctionExists.c.o -o cmTC_26002 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-xKicuM'
+
+
+
+Determining if the function png_get_valid exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Sw8VGe
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_32dab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32dab.dir/build.make CMakeFiles/cmTC_32dab.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Sw8VGe'
+Building C object CMakeFiles/cmTC_32dab.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_get_valid -o CMakeFiles/cmTC_32dab.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Sw8VGe/CheckFunctionExists.c
+Linking C executable cmTC_32dab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32dab.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=png_get_valid CMakeFiles/cmTC_32dab.dir/CheckFunctionExists.c.o -o cmTC_32dab  /usr/lib/x86_64-linux-gnu/libpng.so 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Sw8VGe'
+
+
+
+Determining if the function png_set_tRNS_to_alpha exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-1WN3Gu
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_62200/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_62200.dir/build.make CMakeFiles/cmTC_62200.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-1WN3Gu'
+Building C object CMakeFiles/cmTC_62200.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_set_tRNS_to_alpha -o CMakeFiles/cmTC_62200.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-1WN3Gu/CheckFunctionExists.c
+Linking C executable cmTC_62200
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62200.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=png_set_tRNS_to_alpha CMakeFiles/cmTC_62200.dir/CheckFunctionExists.c.o -o cmTC_62200  /usr/lib/x86_64-linux-gnu/libpng.so 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-1WN3Gu'
+
+
+
+Determining if the function scandir exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Rqdtkf
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f0162/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f0162.dir/build.make CMakeFiles/cmTC_f0162.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Rqdtkf'
+Building C object CMakeFiles/cmTC_f0162.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=scandir -o CMakeFiles/cmTC_f0162.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Rqdtkf/CheckFunctionExists.c
+Linking C executable cmTC_f0162
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0162.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=scandir CMakeFiles/cmTC_f0162.dir/CheckFunctionExists.c.o -o cmTC_f0162 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-Rqdtkf'
+
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-jDr0UA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_896fe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_896fe.dir/build.make CMakeFiles/cmTC_896fe.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-jDr0UA'
+Building C object CMakeFiles/cmTC_896fe.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf -o CMakeFiles/cmTC_896fe.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-jDr0UA/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘snprintf’; expected ‘int(char *, long unsigned int,  const char *, ...)’ [-Wbuiltin-declaration-mismatch]
+/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-jDr0UA/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-jDr0UA/CheckFunctionExists.c:1:1: note: ‘snprintf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_896fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_896fe.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snprintf CMakeFiles/cmTC_896fe.dir/CheckFunctionExists.c.o -o cmTC_896fe 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-jDr0UA'
+
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-X8c8xZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_55b41/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_55b41.dir/build.make CMakeFiles/cmTC_55b41.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-X8c8xZ'
+Building C object CMakeFiles/cmTC_55b41.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp -o CMakeFiles/cmTC_55b41.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-X8c8xZ/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strcasecmp’; expected ‘int(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+<command-line>: note: in definition of macro ‘CHECK_FUNCTION_EXISTS’
+Linking C executable cmTC_55b41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55b41.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcasecmp CMakeFiles/cmTC_55b41.dir/CheckFunctionExists.c.o -o cmTC_55b41 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-X8c8xZ'
+
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-DuKtqp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_298ec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_298ec.dir/build.make CMakeFiles/cmTC_298ec.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-DuKtqp'
+Building C object CMakeFiles/cmTC_298ec.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsnprintf -o CMakeFiles/cmTC_298ec.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-DuKtqp/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘vsnprintf’; expected ‘int(char *, long unsigned int,  const char *, __va_list_tag *)’ [-Wbuiltin-declaration-mismatch]
+/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-DuKtqp/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-DuKtqp/CheckFunctionExists.c:1:1: note: ‘vsnprintf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_298ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_298ec.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vsnprintf CMakeFiles/cmTC_298ec.dir/CheckFunctionExists.c.o -o cmTC_298ec 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-DuKtqp'
+
+
+
+Determining if the include file png.h exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-jz46ZZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b82d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b82d.dir/build.make CMakeFiles/cmTC_9b82d.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-jz46ZZ'
+Building C object CMakeFiles/cmTC_9b82d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9b82d.dir/CheckIncludeFile.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-jz46ZZ/CheckIncludeFile.c
+Linking C executable cmTC_9b82d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b82d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9b82d.dir/CheckIncludeFile.c.o -o cmTC_9b82d 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-jz46ZZ'
+
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-B5aOBg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0f5fa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0f5fa.dir/build.make CMakeFiles/cmTC_0f5fa.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-B5aOBg'
+Building C object CMakeFiles/cmTC_0f5fa.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_0f5fa.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-B5aOBg/CheckFunctionExists.c
+Linking C executable cmTC_0f5fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f5fa.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_0f5fa.dir/CheckFunctionExists.c.o -o cmTC_0f5fa  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-B5aOBg'
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-5IpDuI
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ff4f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ff4f0.dir/build.make CMakeFiles/cmTC_ff4f0.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-5IpDuI'
+Building C object CMakeFiles/cmTC_ff4f0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_ff4f0.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-5IpDuI/CheckFunctionExists.c
+Linking C executable cmTC_ff4f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff4f0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_ff4f0.dir/CheckFunctionExists.c.o -o cmTC_ff4f0 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-5IpDuI'
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-oIFwBM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2028/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2028.dir/build.make CMakeFiles/cmTC_c2028.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-oIFwBM'
+Building C object CMakeFiles/cmTC_c2028.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_c2028.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-oIFwBM/CheckFunctionExists.c
+Linking C executable cmTC_c2028
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2028.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_c2028.dir/CheckFunctionExists.c.o -o cmTC_c2028 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-oIFwBM'
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-utoYnK
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_14bc9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_14bc9.dir/build.make CMakeFiles/cmTC_14bc9.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-utoYnK'
+Building C object CMakeFiles/cmTC_14bc9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_14bc9.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-utoYnK/CheckFunctionExists.c
+Linking C executable cmTC_14bc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14bc9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_14bc9.dir/CheckFunctionExists.c.o -o cmTC_14bc9 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-utoYnK'
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-lp61gz
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f676f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f676f.dir/build.make CMakeFiles/cmTC_f676f.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-lp61gz'
+Building C object CMakeFiles/cmTC_f676f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_f676f.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-lp61gz/CheckFunctionExists.c
+Linking C executable cmTC_f676f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f676f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_f676f.dir/CheckFunctionExists.c.o -o cmTC_f676f 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-lp61gz'
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-crAEvP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_78ff8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_78ff8.dir/build.make CMakeFiles/cmTC_78ff8.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-crAEvP'
+Building C object CMakeFiles/cmTC_78ff8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_78ff8.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-crAEvP/CheckFunctionExists.c
+Linking C executable cmTC_78ff8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78ff8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_78ff8.dir/CheckFunctionExists.c.o -o cmTC_78ff8  -lICE 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-crAEvP'
+
+
+
+Determining if the function glXGetProcAddressARB exists passed with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-u1cC9Z
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8f148/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8f148.dir/build.make CMakeFiles/cmTC_8f148.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-u1cC9Z'
+Building C object CMakeFiles/cmTC_8f148.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/usr/include/GL -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB -o CMakeFiles/cmTC_8f148.dir/CheckFunctionExists.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-u1cC9Z/CheckFunctionExists.c
+Linking C executable cmTC_8f148
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f148.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB CMakeFiles/cmTC_8f148.dir/CheckFunctionExists.c.o -o cmTC_8f148  /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-u1cC9Z'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-0wwS9l
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d9372/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9372.dir/build.make CMakeFiles/cmTC_d9372.dir/build
+gmake[1]: Entering directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-0wwS9l'
+Building C object CMakeFiles/cmTC_d9372.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD -I/usr/include/GL  -o CMakeFiles/cmTC_d9372.dir/src.c.o -c /home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-0wwS9l/src.c
+Linking C executable cmTC_d9372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9372.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d9372.dir/src.c.o -o cmTC_d9372 
+gmake[1]: Leaving directory '/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/CMakeFiles/CMakeScratch/TryCompile-0wwS9l'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+

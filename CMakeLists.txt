@@ -5,7 +5,7 @@ project(PNGDecoder)
 # Find zlib library
 find_package(ZLIB REQUIRED)
 
-set(FLTK_DIR $ENV{FLTK_DIR})
+set(FLTK_DIR libs/fltk-1.3.9/build)
 
 find_package(FLTK REQUIRED NO_MODULE)
 
