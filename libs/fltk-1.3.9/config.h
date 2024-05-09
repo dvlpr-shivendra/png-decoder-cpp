@@ -1,26 +1,28 @@
-/* config.h.  Generated from configh.cmake.in by CMake.  */
+/* config.h.  Generated from configh.in by configure.  */
 /*
+ * "$Id$"
+ *
  * Configuration file for the Fast Light Tool Kit (FLTK).
  *
- * Copyright 1998-2021 by Bill Spitzak and others.
+ * Copyright 1998-2016 by Bill Spitzak and others.
  *
  * This library is free software. Distribution and use rights are outlined in
  * the file "COPYING" which should have been included with this file.  If this
  * file is missing or damaged, see the license at:
  *
- *     https://www.fltk.org/COPYING.php
+ *     http://www.fltk.org/COPYING.php
  *
- * Please see the following page on how to report bugs and issues:
+ * Please report all bugs and problems on the following page:
  *
- *     https://www.fltk.org/bugs.php
+ *     http://www.fltk.org/str.php
  */
 
 /*
  * Where to find files...
  */
 
-#define FLTK_DATADIR "/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/build/share/fltk"
-#define FLTK_DOCDIR "/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9/build/share/doc/fltk"
+#define FLTK_DATADIR "/usr/local/share/fltk"
+#define FLTK_DOCDIR "/usr/local/share/doc/fltk"
 
 /*
  * BORDER_WIDTH:
@@ -84,7 +86,7 @@
 /*
  * USE_XFT
  *
- * Use the Xft library to draw anti-aliased text.
+ * Use the new Xft library to draw anti-aliased text.
  */
 
 #define USE_XFT 1
@@ -291,7 +293,7 @@
  */
 
 #define HAVE_PNG_H 1
-#define HAVE_LIBPNG_PNG_H 1
+/* #undef HAVE_LIBPNG_PNG_H */
 
 /*
  * Do we have the png_xyz() functions?
@@ -333,3 +335,7 @@
 
 #define HAVE_DLFCN_H 1
 #define HAVE_DLSYM 1
+
+/*
+ * End of "$Id$".
+ */

@@ -26,27 +26,27 @@ APIVERSION="$MAJOR_VERSION.$MINOR_VERSION"
 ### BEGIN fltk-config
 selfdir=`dirname "$0"`
 
-prefix=/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9
+prefix=/usr/local
 exec_prefix=${prefix}
 exec_prefix_set=no
-includedir=/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9
+includedir=${prefix}/include
 libdir=${exec_prefix}/lib
 srcdir=.
 
 # BINARY_DIR - used only for CMake builds in local (binary) directory
-BINARY_DIR=/home/techster/projects/png-decoder-cpp/libs/fltk-1.3.9
+BINARY_DIR=
 
 # compiler names
-CC="/usr/bin/cc"
-CXX="/usr/bin/c++"
+CC="gcc"
+CXX="g++"
 
 # flags for C++ compiler:
 ARCHFLAGS=""
-CFLAGS="   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -D_THREAD_SAFE -D_REENTRANT  "
-CXXFLAGS="   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -D_THREAD_SAFE -D_REENTRANT  "
-LDFLAGS=""
-LDLIBS=" -lm -lX11 -lXext -lpthread -lXinerama -lXfixes -lXcursor -lXft -lXrender -lm -lfontconfig -ldl"
-OPTIM=""
+CFLAGS="-I/usr/include/freetype2 -I/usr/include/libpng16    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT"
+CXXFLAGS="-I/usr/include/freetype2 -I/usr/include/libpng16    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_THREAD_SAFE -D_REENTRANT"
+LDFLAGS=" "
+LDLIBS="-lXrender -lXcursor -lXfixes -lXext -lXft -lfontconfig -lXinerama -lpthread -lm  -lX11 "
+OPTIM=" -Os -Wall -Wunused -Wno-format-y2k  -fno-exceptions -fno-strict-aliasing -ffunction-sections -fdata-sections"
 CAIROFLAGS=""
 
 # Check for local invocation, and update paths accordingly...
@@ -81,11 +81,11 @@ if test -f "$libdir/libfltk_cairo.a"; then
 fi
 
 # libraries to link with:
-LIBNAME="${exec_prefix}/lib/libfltk.a"
+LIBNAME="../lib/libfltk.a"
 DSONAME=""
 DSOLINK=""
-IMAGELIBS="-ljpeg -lpng -lz"
-STATICIMAGELIBS="-ljpeg -lpng -lz"
+IMAGELIBS="-lpng -lz -ljpeg "
+STATICIMAGELIBS="-lpng -lz -ljpeg "
 CAIROLIBS=""
 SHAREDSUFFIX=""
 
@@ -241,8 +241,8 @@ if test x$use_forms = xyes; then
     LDSTATIC="$libdir/libfltk_forms.a $LDSTATIC"
 fi
 if test x$use_gl = xyes; then
-    LDLIBS="-lfltk_gl$SHAREDSUFFIX -lGLU -lGL $LDLIBS"
-    LDSTATIC="$libdir/libfltk_gl.a -lGLU -lGL $LDSTATIC"
+    LDLIBS="-lfltk_gl$SHAREDSUFFIX -lGL $LDLIBS"
+    LDSTATIC="$libdir/libfltk_gl.a -lGL $LDSTATIC"
 fi
 if test x$use_images = xyes; then
     LDLIBS="-lfltk_images$SHAREDSUFFIX $IMAGELIBS $LDLIBS"
